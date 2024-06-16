@@ -1,6 +1,9 @@
 ﻿using FundamentosCSharp.src.Project01;
 using FundamentosCSharp.src.Projeto02;
 using FundamentosCSharp.src.Projeto03;
+using FundamentosCSharp.src.Projeto04;
+using FundamentosCSharp.src.Projeto05;
+using FundamentosCSharp.src.Projeto06;
 
 class Program
 {
@@ -20,6 +23,15 @@ class Program
                 break;
             case 3:
                 Calc.Run();
+                break;
+            case 4:
+                CountCharacters.Run();
+                break;
+            case 5:
+                Plate.Run();
+                break;
+            case 6:
+                Datetimer.Run();
                 break;
             default:
                 Console.WriteLine("Número de projeto inválido");
